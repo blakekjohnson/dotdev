@@ -1,5 +1,6 @@
 ---
-layout: base.html
+title: blakekjohnson.dev
+layout: base.njk
 ---
 
 # blakekjohnson.dev
