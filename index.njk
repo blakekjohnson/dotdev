@@ -1,0 +1,28 @@
+---
+title: blakekjohnson.dev
+layout: base.njk
+eleventyImport:
+  collections: [ "post" ]
+---
+
+<h1>blakekjohnson.dev</h1>
+Hello, I'm Blake and this is a place where I can write the thoughts I feel like
+broadly sharing down.
+
+<h2>Posts</h2>
+<ul>
+{%- for post in collections.post | reverse -%}
+  <li>
+    <h3>
+      <a href={{ post.url }}>
+        {{ post.data.title }}
+      </a>
+    </h3>
+    <p>
+      {{ post.data.tldr }}
+      <br />
+      Posted {{ post.data.date }}
+    </p>
+  </li>
+{%- endfor -%}
+</ul>
