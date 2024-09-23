@@ -2,11 +2,10 @@
 <html lang="en">
   {% include "head.njk" %}
   <body>
-    {% if page.url != '/' %}
-      <div class="header">
-        <a href="/">Home</a>
-      </div>
-    {% endif %}
+    <div class="header">
+      <a href="/">home</a>
+      <a href="/posts">all posts</a>
+    </div>
     <div class="container">
       {{ content | safe }}
     </div>
