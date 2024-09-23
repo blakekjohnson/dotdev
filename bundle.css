@@ -9,11 +9,21 @@ html, body {
   height: 100%;
 }
 
-.header {
+.header a {
+  padding-right: .5em;
 }
 
 .container {
   flex: 1 0 auto;
+  width: 50%;
+}
+
+.post-listing {
+  list-style-type: none;
+}
+
+.post-listing-title {
+  margin-bottom: 0;
 }
 
 .footer {

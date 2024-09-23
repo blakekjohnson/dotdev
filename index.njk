@@ -8,20 +8,20 @@ eleventyImport:
 <h1>blakekjohnson.dev</h1>
 Hi, I'm Blake. This is where I share my thoughts.
 
-<h2>Recent Posts</h2>
-<ul>
+<h2>recent posts</h2>
+<ol>
 {% for post in collections.post | reverse %}
   {% if loop.index0 < 5 %}
-    <p>
-      <h3>
+    <li class="post-listing">
+      <h3 class="post-listing-title">
         <a href={{ post.url }}>
           {{ post.data.title }}
         </a>
       </h3>
-      {{ post.data.tldr }}
-      <br />
       Posted {{ post.data.date }}
-    </p>
+      <br />
+      {{ post.data.tldr }}
+    </li>
   {% endif %}
 {% endfor %}
-</ul>
+</ol>
