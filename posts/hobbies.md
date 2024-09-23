@@ -30,19 +30,17 @@ closer to this:
 * Messing around with home servers and electronics
 * Playing old GameCube games ~~and modding controllers~~
 
-But surely consistency isn't the core of what makes a hobby a hobby and it's
-really all about the individual and their relationship with the activity. Even
-if I go months without sitting down and watching a movie that will still always
-be one of my favorite activities. My attempts to learn bass go as far back as
-when I was ten years old and thought that it looked cool, even if I still can
-barely move up and down the neck it's still a relaxing and rewarding hobby for
-me.
+But surely consistency isn't the core of what makes a hobby and it's really all
+about the individual and their relationship with the activity. Even if I go
+months without sitting down and watching a movie that will still always be one
+of my favorite activities. My attempts to learn bass go as far back as when I
+was ten years old and thought that it looked cool, even if I still can barely
+move up and down the neck it's still a relaxing and rewarding hobby for me.
 
-One interaction I find myself in a lot is getitng to know who people are and
-what they do. Most of the time I naturally (like most other people) begin with
-what I do day-to-day for work. For some reason I feel as though most of those
-hobbies from the first list simply aren't "valid" enough to share. As if I have
-to pass some threshold of _success_ or **frequency** in order to call them a
-hobby or feeling the need to add some sort of asterisk. At the end of the day
-there is no right or wrong, as long as they give me joy then I should proudly
-claim my hobbies.
+One of the most common questions when meeting someone for the first time is
+"What do you do?". Most of the time I naturally - like most other people - talk
+about what I do for work. For some reason I feel as though the things I do in my
+spare time from the first list aren't "valid" enough to share. As if I have to
+pass some threshold of _success_ or **frequency** to call them a hobby. At the
+end of the day there is no right or wrong, as long as they give me joy 
+and I should proudly claim my hobbies.
