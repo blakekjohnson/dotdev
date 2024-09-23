@@ -15,7 +15,7 @@ html, body {
 
 .container {
   flex: 1 0 auto;
-  width: 50%;
+  width: max(50%, min(500px, 100%))
 }
 
 .post-listing {
