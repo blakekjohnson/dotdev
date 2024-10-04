@@ -42,5 +42,5 @@ One of the most common questions when meeting someone for the first time is
 about what I do for work. For some reason I feel as though the things I do in my
 spare time from the first list aren't "valid" enough to share. As if I have to
 pass some threshold of _success_ or **frequency** to call them a hobby. At the
-end of the day there is no right or wrong, as long as they give me joy 
-and I should proudly claim my hobbies.
+end of the day there is no right or wrong, as long as they give me joy I should
+proudly claim my hobbies.
