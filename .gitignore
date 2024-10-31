@@ -2,4 +2,11 @@
 node_modules/
 package-lock.json
 _site/
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
