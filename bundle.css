@@ -15,6 +15,11 @@ html, body {
 
 .container {
   flex: 1 0 auto;
+  width: max(25%, min(500px, 100%))
+}
+
+img {
+  filter: drop-shadow(4px 4px 8px);
   width: max(50%, min(500px, 100%))
 }
 
