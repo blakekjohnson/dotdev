@@ -23,11 +23,11 @@ img {
   width: max(50%, min(500px, 100%))
 }
 
-.post-listing {
+.post-listing, .link-listing {
   list-style-type: none;
 }
 
-.post-listing-title {
+.post-listing-title, .link-listing-title {
   margin-bottom: 0;
 }
 
