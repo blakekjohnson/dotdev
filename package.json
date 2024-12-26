@@ -2,7 +2,8 @@
   "name": "blog",
   "packageManager": "yarn@4.4.1",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.2"
   },
   "scripts": {
     "build": "npx @11ty/eleventy",

@@ -2,12 +2,7 @@
 <html lang="en">
   {% include "head.njk" %}
   <body>
-    <div class="header">
-      <a href="/">home</a>
-      <a href="/blog">blog</a>
-      <a href="/neat">neat links</a>
-      <a href="/about">about</a>
-    </div>
+    {% include "nav.njk" %}
     <div class="container">
       {{ content | safe }}
     </div>
@@ -15,6 +10,7 @@
       <p>
         Blake Johnson - 2024
         <br />
+        <a href="/feed.xml"><i class="fa-solid fa-rss"></i></a> |
         Source on <a href="https://github.com/blakekjohnson/dotdev">GitHub</a>
       </p>
     </div>
