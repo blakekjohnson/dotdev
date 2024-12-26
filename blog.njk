@@ -1,12 +1,12 @@
 ---
-title: all posts
+title: blog
 layout: base.njk
-permalink: /posts/
+permalink: /blog/
 eleventyImport:
   collections: [ "post" ]
 ---
 
-<h1>all posts</h1>
+<h1>blog</h1>
 <ol>
 {% for post in collections.post | reverse %}
   <li class="post-listing">

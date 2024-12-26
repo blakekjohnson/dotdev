@@ -8,10 +8,10 @@ eleventyImport:
 <h1>blakekjohnson.dev</h1>
 Hi, I'm Blake. This is where I share my thoughts.
 
-<h2>recent posts</h2>
+<h2>most recent blog post</h2>
 <ol>
 {% for post in collections.post | reverse %}
-  {% if loop.index0 < 5 %}
+  {% if loop.index0 < 1 %}
     <li class="post-listing">
       <h3 class="post-listing-title">
         <a href={{ post.url }}>
