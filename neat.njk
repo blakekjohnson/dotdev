@@ -33,7 +33,7 @@ pagination:
 {% endif %}
 
 <script>
-  const links = {{ links | toJSON | safe }};
+  const links = {{ neat | toJSON | safe }};
   function random_link() {
     const randIndex = Math.floor(Math.random() * links.length);
     window.open(links[randIndex].url, '_blank').focus();

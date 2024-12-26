@@ -3,10 +3,13 @@ title: blakekjohnson.dev
 layout: base.njk
 eleventyImport:
   collections: [ "post" ]
+pagination:
+  data: neat
+  size: 10
 ---
 
 <h1>blakekjohnson.dev</h1>
-Hi, I'm Blake. This is where I share my thoughts.
+Hi, I'm Blake Johnson and this is my corner of the internet.
 
 <h2>most recent blog post</h2>
 <ol>
@@ -21,6 +24,24 @@ Hi, I'm Blake. This is where I share my thoughts.
       Posted {{ post.data.date }}
       <br />
       {{ post.data.tldr }}
+    </li>
+  {% endif %}
+{% endfor %}
+</ol>
+
+<h2>most recent neat link</h2>
+<ol>
+{% for link in neat | reverse %}
+  {% if loop.index0 < 1 %}
+    <li class="link-listing">
+      <h3 class="link-listing-title">
+        <a href={{ link.url }}>
+          {{ link.title }}
+        </a>
+      </h3>
+      Added {{ link.added }}
+      <br />
+      {{ link.description }}
     </li>
   {% endif %}
 {% endfor %}
