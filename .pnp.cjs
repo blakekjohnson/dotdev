@@ -28,7 +28,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@11ty/eleventy", "npm:3.0.0"],\
-          ["@11ty/eleventy-plugin-rss", "npm:2.0.2"]\
+          ["@11ty/eleventy-plugin-rss", "npm:2.0.2"],\
+          ["@quasibit/eleventy-plugin-schema", "virtual:c6dcce817fa225290e033ab3df9d032741dc228bb28c9cbb4719875ef6095c1c8f4a1ecb6d1cce6f1119ad7c9bb93c31bc307a4e235fab5627d039ca42e55b65#npm:1.11.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -288,6 +289,28 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@quasibit/eleventy-plugin-schema", [\
+      ["npm:1.11.1", {\
+        "packageLocation": "../../.yarn/berry/cache/@quasibit-eleventy-plugin-schema-npm-1.11.1-6ac6ea8199-10c0.zip/node_modules/@quasibit/eleventy-plugin-schema/",\
+        "packageDependencies": [\
+          ["@quasibit/eleventy-plugin-schema", "npm:1.11.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:c6dcce817fa225290e033ab3df9d032741dc228bb28c9cbb4719875ef6095c1c8f4a1ecb6d1cce6f1119ad7c9bb93c31bc307a4e235fab5627d039ca42e55b65#npm:1.11.1", {\
+        "packageLocation": "./.yarn/__virtual__/@quasibit-eleventy-plugin-schema-virtual-c2a9c4b351/3/.yarn/berry/cache/@quasibit-eleventy-plugin-schema-npm-1.11.1-6ac6ea8199-10c0.zip/node_modules/@quasibit/eleventy-plugin-schema/",\
+        "packageDependencies": [\
+          ["@quasibit/eleventy-plugin-schema", "virtual:c6dcce817fa225290e033ab3df9d032741dc228bb28c9cbb4719875ef6095c1c8f4a1ecb6d1cce6f1119ad7c9bb93c31bc307a4e235fab5627d039ca42e55b65#npm:1.11.1"],\
+          ["@11ty/eleventy", "npm:3.0.0"],\
+          ["@types/11ty__eleventy", null]\
+        ],\
+        "packagePeers": [\
+          "@11ty/eleventy",\
+          "@types/11ty__eleventy"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@sindresorhus/slugify", [\
       ["npm:2.2.1", {\
         "packageLocation": "../../.yarn/berry/cache/@sindresorhus-slugify-npm-2.2.1-d3d46bd278-10c0.zip/node_modules/@sindresorhus/slugify/",\
@@ -530,7 +553,8 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["blog", "workspace:."],\
           ["@11ty/eleventy", "npm:3.0.0"],\
-          ["@11ty/eleventy-plugin-rss", "npm:2.0.2"]\
+          ["@11ty/eleventy-plugin-rss", "npm:2.0.2"],\
+          ["@quasibit/eleventy-plugin-schema", "virtual:c6dcce817fa225290e033ab3df9d032741dc228bb28c9cbb4719875ef6095c1c8f4a1ecb6d1cce6f1119ad7c9bb93c31bc307a4e235fab5627d039ca42e55b65#npm:1.11.1"]\
         ],\
         "linkType": "SOFT"\
       }]\

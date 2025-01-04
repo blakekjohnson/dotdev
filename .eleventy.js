@@ -1,4 +1,5 @@
 const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
+const schemaPlugin = require("@quasibit/eleventy-plugin-schema");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("bundle.css");
@@ -26,5 +27,7 @@ module.exports = function (eleventyConfig) {
       },
     },
   });
+
+  eleventyConfig.addPlugin(schemaPlugin);
 };
 

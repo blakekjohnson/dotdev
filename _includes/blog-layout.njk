@@ -2,7 +2,24 @@
 layout: base.njk
 tags:
   - post
+type: post
+meta:
+  site:
+    name: blakekjohnson.dev
+    url: https://blakekjohnson.dev
+  language: en-US
+  image:
+    src: https://example.com/images/page.png
+  author:
+    name: Blake Johnson
+eleventyComputed:
+  meta:
+    url: "{{ permalink }}"
+    title: "{{ title }}"
+    description: "{{ tldr }}"
+    published: "{{ date }}"
 ---
+
 <h1>{{ title }}</h1>
 <p>Posted {{ date }}</p>
 <p>

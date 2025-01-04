@@ -235,6 +235,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@quasibit/eleventy-plugin-schema@npm:^1.11.1":
+  version: 1.11.1
+  resolution: "@quasibit/eleventy-plugin-schema@npm:1.11.1"
+  peerDependencies:
+    "@11ty/eleventy": ^0.11.0 || ^0.12.0 || ^1.0.0 || ^2.0.0 || ^3.0.0
+  checksum: 10c0/b58d4cd6eebabf76e351fe366c2dbe0ba15c8d548d8938c8cb845f49dab74ea94fc1563e5cecb0f6f1c8bd31f6ad68a2c1dc7c1cdb8bd21945b06b8107cc0511
+  languageName: node
+  linkType: hard
+
 "@sindresorhus/slugify@npm:^2.2.1":
   version: 2.2.1
   resolution: "@sindresorhus/slugify@npm:2.2.1"
@@ -446,6 +455,7 @@ __metadata:
   dependencies:
     "@11ty/eleventy": "npm:^3.0.0"
     "@11ty/eleventy-plugin-rss": "npm:^2.0.2"
+    "@quasibit/eleventy-plugin-schema": "npm:^1.11.1"
   languageName: unknown
   linkType: soft
 
