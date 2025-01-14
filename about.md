@@ -11,7 +11,8 @@ layout: base.njk
   * platform fighters
   * various beers
 * I like creating things, including:
-  * noises on synthesizers
+  * noises on synthesizers (Here's my
+  [bandcamp](https://officechair.bandcamp.com/))
   * art projects for my loved ones
   * programming projects for myself
 * I like learning:
