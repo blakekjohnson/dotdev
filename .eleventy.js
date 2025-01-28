@@ -2,14 +2,17 @@ const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
 const schemaPlugin = require("@quasibit/eleventy-plugin-schema");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("bundle.css");
-
+  // Passthroughs
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("bundle.css");
+  eleventyConfig.addPassthroughCopy("sitemap.xml");
 
+  // Custom Filters
   eleventyConfig.addFilter("toJSON", (arr) => {
     return JSON.stringify(arr);
   });
 
+  // Feed generator plugin
   eleventyConfig.addPlugin(feedPlugin, {
     type: "atom",
     outputPath: "/feed.xml",
@@ -28,6 +31,7 @@ module.exports = function (eleventyConfig) {
     },
   });
 
+  // JSON-LD Schema plugin
   eleventyConfig.addPlugin(schemaPlugin);
 };
 
