@@ -46,17 +46,17 @@ like that my corner was publicly accessible. Here's hoping I keep it up.
 There is no point in talking about making my own website without mentioning
 some sources of inspiration.
 - [Hearthside](https://calebhearth.com) by Caleb Hearth
-    * Saw [Don't Get Distracted](https://calebhearth.com/dont-get-distracted)
+  * Saw [Don't Get Distracted](https://calebhearth.com/dont-get-distracted)
     on HackerNews and got motivated to keep working on my own corner
 - [cyberb.space](https://cyberb.space) by Josh Erb
-    * Another HackerNews recommendation, saw [How I Added Maps to my Travel Posts](https://cyberb.space/notes/2024/how-i-added-maps-to-my-travel-posts/)
+  * Another HackerNews recommendation, saw [How I Added Maps to my Travel Posts](https://cyberb.space/notes/2024/how-i-added-maps-to-my-travel-posts/)
 and noticed that the source was available
 - [TurkeyLand](https://turkeyland.net/index.php) by Jeff Turkstra
-    * One of my Purdue professor's had his own website that was oozing in
+  * One of my Purdue professor's had his own website that was oozing in
     personality and inspired me to have a section of the internet
 - [Why YOU Should Make a Website!](https://youtu.be/uNlZ50b6wSs?si=Fy2hrxSLwqLpGRYM)
 by LuvstarKei (YouTube)
-    * Great YouTube video
+  * Great YouTube video
 - Yearning
-    * For an internet that I feel I was robbed of
-    * For a place to share
+  * For an internet that I feel I was robbed of
+  * For a place to share
