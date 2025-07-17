@@ -1,6 +1,6 @@
 ---
 layout: blog-layout.njk
-title: (Attempting) Ditching Spotify
+title: Ditching Spotify
 date: "2025-07-16"
 tldr: "Setting up a Plex server finally."
 ---
